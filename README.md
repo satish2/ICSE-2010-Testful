@@ -3,10 +3,8 @@ This repository contains information related to the tool Testful presented in IC
 The tool was originally presented in <a href="http://dl.acm.org.prox.lib.ncsu.edu/citation.cfm?id=1810295.1810353&coll=DL&dl=GUIDE&CFID=722556246&CFTOKEN=87998291">this paper.</a>
 
 This repository _is not_ the original repository for this tool.Here are some links to the original project:
-* The original project page of the tool.
-<a href="https://code.google.com/p/testful/">Original-Project-Page.</a>
-* The github page of the tool. 
-<a href="https://github.com/matteomiraz/testful">Original-github-page.</a>
+* <a href="https://code.google.com/p/testful/">Original-Project-Page.</a>
+* <a href="https://github.com/matteomiraz/testful">Original-github-page.</a>
 
 
 In this repository, for XMLSnippet you will find:
