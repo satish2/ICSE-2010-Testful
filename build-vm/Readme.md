@@ -9,7 +9,7 @@ Username: vagrant</br>
 Password: vagrant</br>
 
 # Acknowledgments
-* Used vagrant virtual box image of [Ubuntu14.04 64-bit](https://atlas.hashicorp.com/box-cutter/ubuntu1404-desktop).
+* Used vagrant virtual box image of [Ubuntu14.04 64-bit](https://atlas.hashicorp.com/boxcutter/boxes/ubuntu1404-desktop/versions/2.0.7).
 
 #References
 * https://docs.vagrantup.com/v2/getting-started/index.html
