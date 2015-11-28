@@ -69,5 +69,18 @@ Vagrant.configure(2) do |config|
      sudo apt-get update
      sudo apt-get install -y openjdk-7-jre
      sudo apt-get install -y openjdk-7-jdk
+     cd Desktop
+     wget "https://eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/mars/1/eclipse-jee-mars-1-linux-gtk-x86_64.tar.gz"
+     tar zxvf eclipse-jee-mars-1-linux-gtk-x86_64.tar.gz
+     rm eclipse-jee-mars-1-linux-gtk-x86_64.tar.gz
+     chown -R vagrant: eclipse
+     chown -R vagrant "/home/vagrant/Desktop"
+     chmod -R a+rwx "/home/vagrant/Desktop"
+     cd Desktop
+     wget "https://testful.googlecode.com/files/instrumenter-2.0.0.alpha.jar"
+     wget "https://testful.googlecode.com/files/testful-2.0.0.alpha.jar"
+     mv /home/vagrant/Desktop/testful-2.0.0.alpha.jar  /home/vagrant/Desktop/eclipse/plugins/
+     sudo apt-get install flashplugin-installer
+     
    SHELL
 end
