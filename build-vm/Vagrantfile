@@ -92,7 +92,11 @@ Vagrant.configure(2) do |config|
      
      cd /home/vagrant/Desktop
      sudo wget "https://googledrive.com/host/0B4H6x7rqcFw3Q2RrZ1QxdWE5Zk0/TestFul_Workspace.tar.gz"
+     
+     sudo chmod 777 TestFul_Workspace.tar.gz
      tar -zxvf TestFul_Workspace.tar.gz
+     mv /home/vagrant/Desktop/workspace /home/vagrant/
+     
      
      
 
