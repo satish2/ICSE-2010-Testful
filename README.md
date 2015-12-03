@@ -8,7 +8,7 @@ This repository _is not_ the original repository for this tool.Here are some lin
 * <a href="https://code.google.com/p/testful/downloads/list">The Official Download Link.</a>
 
 
-In this repository, for XMLSnippet you will find:
+In this repository, for Testful you will find:
 * :white_check_mark: <a href="https://code.google.com/p/testful/source/checkout">Source code (available).</a>
 * :x: Executable tool (not available)
 
